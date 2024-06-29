@@ -1,4 +1,4 @@
-{% set short_repository = repository.split["/"](1) -%}
+{% set short_repository = repository.split("/")[1] -%}
 
 ### Add Your App
 
