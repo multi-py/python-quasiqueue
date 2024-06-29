@@ -1,4 +1,7 @@
-# multipy-image-template
+# QuasiQueue
+
+> [!CAUTION]
+> This project is still being setup: don't use it yet.
 
 <!--ts-->
 <!--te-->
