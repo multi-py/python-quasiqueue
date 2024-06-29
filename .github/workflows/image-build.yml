@@ -10,6 +10,7 @@ on:
       - ".github/workflows/versionator.yml"
   schedule:
     - cron: "4 0 * * WED"
+  workflow_dispatch:
 
 jobs:
   Quasiqueue-Builder:
