@@ -1,4 +1,4 @@
-name: TEMPLATE_PYTHON_PACKAGE Version Updater
+name: Quasiqueue Version Updater
 
 # Every 30 minutes check for a new version of the package.
 on:
