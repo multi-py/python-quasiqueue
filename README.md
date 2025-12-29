@@ -5,7 +5,33 @@ A multiarchitecture container image for running Python with [QuasiQueue](https:/
 Looking for the containers? [Head over to the Github Container Registry](https://github.com/multi-py/python-uvicorn/pkgs/container/python-quasiqueue)!
 
 <!--ts-->
-
+* [python-quasiqueue](#python-quasiqueue)
+   * [Benefits](#benefits)
+      * [Multi Architecture Builds](#multi-architecture-builds)
+      * [Small Images via Multi Stage Builds](#small-images-via-multi-stage-builds)
+      * [No Rate Limits](#no-rate-limits)
+      * [Rapid Building of New Versions](#rapid-building-of-new-versions)
+      * [Regular Updates](#regular-updates)
+   * [How To](#how-to)
+      * [Using the Full Image](#using-the-full-image)
+      * [Using the Slim Image](#using-the-slim-image)
+      * [Copy Just the Packages](#copy-just-the-packages)
+      * [Add Your App](#add-your-app)
+      * [PreStart Script](#prestart-script)
+   * [Environmental Variables](#environmental-variables)
+      * [PORT](#port)
+      * [LOG_LEVEL](#log_level)
+      * [MODULE_NAME](#module_name)
+      * [PRE_START_PATH](#pre_start_path)
+      * [RELOAD](#reload)
+   * [Python Versions](#python-versions)
+   * [Image Variants](#image-variants)
+      * [Full](#full)
+      * [Slim](#slim)
+   * [Architectures](#architectures)
+   * [Sponsorship](#sponsorship)
+   * [Tags](#tags)
+      * [Older Tags](#older-tags)
 <!--te-->
 
 ## Benefits
